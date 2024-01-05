@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 csoto09/stylelint is built on the following main stack:
+
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -13,11 +14,13 @@ csoto09/stylelint is built on the following main stack:
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 csoto09/stylelint is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -29,14 +32,15 @@ csoto09/stylelint is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [csoto09/stylelint](https://github.com/csoto09/stylelint)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|49<br/>Tools used|11/17/23 <br/>Report generated|
+|51<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -181,9 +185,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (34)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (36)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (34)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (36)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -198,9 +202,11 @@ Full tech stack [here](/techstack.md)
 |[fast-glob](https://www.npmjs.com/fast-glob)|v3.2.11|01/17/22|dependabot[bot] |MIT|N/A|
 |[get-stdin](https://www.npmjs.com/get-stdin)|v8.0.0|04/18/22|dependabot[bot] |MIT|N/A|
 |[globby](https://www.npmjs.com/globby)|v11.1.0|01/17/22|dependabot[bot] |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v7.0.4|10/21/21|dependabot[bot] |MIT|N/A|
 |[ignore](https://www.npmjs.com/ignore)|v5.2.0|12/20/21|dependabot[bot] |MIT|N/A|
 |[is-plain-object](https://www.npmjs.com/is-plain-object)|v5.0.0|06/05/21|Stephen Wade |MIT|N/A|
 |[jest-watch-typeahead](https://www.npmjs.com/jest-watch-typeahead)|v1.0.0|04/18/22|dependabot[bot] |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v12.3.8|04/18/22|dependabot[bot] |MIT|N/A|
 |[meow](https://www.npmjs.com/meow)|v9.0.0|01/11/21|dependabot[bot] |MIT|N/A|
 |[micromatch](https://www.npmjs.com/micromatch)|v4.0.5|03/31/22|dependabot[bot] |MIT|N/A|
 |[node-fetch](https://www.npmjs.com/node-fetch)|v3.2.3|03/14/22|dependabot[bot] |MIT|[CVE-2022-2596](https://github.com/advisories/GHSA-vp56-6g26-6827) (Moderate)|
