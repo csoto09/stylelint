@@ -1,11 +1,12 @@
 repo_name: csoto09/stylelint
 report_id: 77167247e7799802d709454a3463a154
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-17T01:16:14+00:00'
+timestamp: '2024-01-05T08:38:08+00:00'
 requested_by: jeddy3
 provider: github
 branch: main
-detected_tools_count: 49
+detected_tools_count: 51
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/csoto09/stylelint
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/csoto09/stylelint
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/csoto09/stylelint
   detection_source: Repo Metadata
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package.json
   detection_source: package.json
   last_updated_by: Maxime Thirouin
   last_updated_on: 2014-12-11 07:20:05.000000000 Z
@@ -56,6 +61,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/codecov.yml
   detection_source: codecov.yml
   last_updated_by: Masafumi Koba
   last_updated_on: 2022-02-07 08:47:36.000000000 Z
@@ -68,6 +74,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package.json
   detection_source: package.json
   last_updated_by: Maxime Thirouin
   last_updated_on: 2014-12-11 07:20:05.000000000 Z
@@ -79,6 +86,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/csoto09/stylelint
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -88,7 +96,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/testing.yml"
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/.github/workflows/code-scanning.yml
+  detection_source: ".github/workflows/code-scanning.yml"
   last_updated_by: neilnaveen
   last_updated_on: 2022-04-13 08:39:19.000000000 Z
 - name: Jest
@@ -101,7 +110,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Thirouin
   last_updated_on: 2014-12-11 07:20:05.000000000 Z
@@ -115,7 +124,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-04 08:44:43.000000000 Z
@@ -127,6 +136,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package.json
   detection_source: package.json
   last_updated_by: Maxime Thirouin
   last_updated_on: 2014-12-11 07:20:05.000000000 Z
@@ -136,6 +146,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/lib/__tests__/fixtures/at-rule-empty-line-before.html
   detection_source: lib/__tests__/fixtures/at-rule-empty-line-before.html
   last_updated_by: 刘祺
   last_updated_on: 2017-09-12 07:51:19.000000000 Z
@@ -148,12 +159,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/csoto09/stylelint
   detection_source: Repo Metadata
 - name: husky
   website_url: https://github.com/typicode/husky
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-21 13:54:23.000000000 Z
@@ -162,6 +175,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:40:21.000000000 Z
@@ -175,7 +189,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-03-28 02:07:07.000000000 Z
@@ -189,7 +203,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18395/default_dc6769b9772560ba4cb2cd0455560c2922e23c92.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-03-31 00:11:43.000000000 Z
@@ -204,7 +218,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16241/default_cbc604730ab04341982d806fe402cd0706cc8bf4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Matt Wang
   last_updated_on: 2021-12-18 08:40:53.000000000 Z
@@ -218,7 +232,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17307/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-14 08:11:40.000000000 Z
@@ -232,7 +246,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17133/default_aae1698f13b22e457dce8faa3612b71379cf7a48.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Matt Wang
   last_updated_on: 2021-11-08 17:58:11.000000000 Z
@@ -246,7 +260,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-03-22 10:35:50.000000000 Z
@@ -260,7 +274,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Aleks Hudochenkov
   last_updated_on: 2021-09-14 15:44:47.000000000 Z
@@ -274,7 +288,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:40:21.000000000 Z
@@ -288,7 +302,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17033/default_50357c490b205882dcfb608fd3c74b446186c21e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-01-17 03:41:57.000000000 Z
@@ -302,7 +316,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17101/default_50357c490b205882dcfb608fd3c74b446186c21e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:40:21.000000000 Z
@@ -316,10 +330,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-01-17 03:41:57.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 7.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-10-21 13:54:23.000000000 Z
 - name: ignore
   description: Ignore is a manager and filter for .gitignore rules
   package_url: https://www.npmjs.com/ignore
@@ -330,7 +358,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17744/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-12-20 12:11:53.000000000 Z
@@ -344,7 +372,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17345/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Stephen Wade
   last_updated_on: 2021-06-05 17:25:22.000000000 Z
@@ -358,7 +386,21 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16646/default_50c9ed1615a25628505ab53def64d82450ced26b.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-18 08:40:21.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 12.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:40:21.000000000 Z
@@ -372,7 +414,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16181/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-01-11 15:15:03.000000000 Z
@@ -386,7 +428,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17143/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-03-31 00:11:43.000000000 Z
@@ -400,7 +442,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-03-14 18:09:34.000000000 Z
@@ -421,7 +463,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18102/image.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Richard Hallows
   last_updated_on: 2022-01-23 17:46:57.000000000 Z
@@ -435,7 +477,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16247/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Thirouin
   last_updated_on: 2014-12-11 07:20:05.000000000 Z
@@ -449,7 +491,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: XhmikosR
   last_updated_on: 2021-09-17 12:51:00.000000000 Z
@@ -463,7 +505,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:39:08.000000000 Z
@@ -484,7 +526,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16086/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:39:08.000000000 Z
@@ -498,7 +540,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17798/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:39:08.000000000 Z
@@ -512,7 +554,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16449/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:39:08.000000000 Z
@@ -526,7 +568,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16233/default_dc80ff0a17bac19253430a4f0f586714841116db.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:39:08.000000000 Z
@@ -541,7 +583,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18148/default_440caaaee595e35f6bfab82d7f75dc25a80312ce.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:39:08.000000000 Z
@@ -555,7 +597,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18433/default_090197a87d306c919c7dbc09bfedd02e3b061236.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-18 08:39:08.000000000 Z
@@ -569,7 +611,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16755/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Matt Wang
   last_updated_on: 2021-12-18 08:40:53.000000000 Z
@@ -583,7 +625,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17861/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: greenkeeper[bot]
   last_updated_on: 2019-04-15 04:53:16.000000000 Z
@@ -598,7 +640,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17879/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: XhmikosR
   last_updated_on: 2021-10-24 18:40:00.000000000 Z
@@ -612,7 +654,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16331/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: XhmikosR
   last_updated_on: 2021-10-24 18:40:00.000000000 Z
@@ -626,7 +668,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18456/default_1ee30bb84bfc1558e9a2c7e21dfb728addee0444.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-08-12 11:32:26.000000000 Z
@@ -640,7 +682,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17937/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-01-10 07:06:51.000000000 Z
@@ -654,7 +696,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18295/default_678ce8b19e8cee1dde03f165f62525a2c9d0c034.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/csoto09/stylelint/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-02-14 05:12:39.000000000 Z
