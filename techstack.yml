@@ -2,7 +2,7 @@ repo_name: csoto09/stylelint
 report_id: 77167247e7799802d709454a3463a154
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:38:08+00:00'
+timestamp: '2024-02-29T18:49:29+00:00'
 requested_by: jeddy3
 provider: github
 branch: main
@@ -115,7 +115,7 @@ tools:
   last_updated_by: Maxime Thirouin
   last_updated_on: 2014-12-11 07:20:05.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.6.2
   license: MIT
